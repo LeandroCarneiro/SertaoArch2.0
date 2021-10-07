@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\$ext_projectname$.Application\$ext_projectname$.Application.csproj" />
+    <ProjectReference Include="..\$ext_projectname$.Common\$ext_projectname$.Common.csproj" />
+    <ProjectReference Include="..\$ext_projectname$.DI\$ext_projectname$.DI.csproj" />
+  </ItemGroup>
+
+</Project>

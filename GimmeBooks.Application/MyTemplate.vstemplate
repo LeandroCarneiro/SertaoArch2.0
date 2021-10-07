@@ -1,0 +1,42 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GimmeBooks.Application</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GimmeBooks.Application</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GimmeBooks.Application.csproj" File="GimmeBooks.Application.csproj" ReplaceParameters="true">
+      <Folder Name="AppServices" TargetFolderName="AppServices">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BookAppService.cs">BookAppService.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NewsAnaliticsAppService.cs">NewsAnaliticsAppService.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NewsAppService.cs">NewsAppService.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TweetAppService.cs">TweetAppService.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <Folder Name="Business" TargetFolderName="Business">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IBookBusiness.cs">IBookBusiness.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="INewBusiness.cs">INewBusiness.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="INewsAnaliticsBusiness.cs">INewsAnaliticsBusiness.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ITweetBusiness.cs">ITweetBusiness.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Services" TargetFolderName="Services">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IBookSearcher.cs">IBookSearcher.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="INewsSearcher.cs">INewsSearcher.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ITweetSearcher.cs">ITweetSearcher.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BaseAppService.cs">BaseAppService.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IBusiness.cs">IBusiness.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

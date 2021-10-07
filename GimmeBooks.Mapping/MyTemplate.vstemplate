@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GimmeBooks.Mapping</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GimmeBooks.Mapping</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GimmeBooks.Mapping.csproj" File="GimmeBooks.Mapping.csproj" ReplaceParameters="true">
+      <Folder Name="Profiles" TargetFolderName="Profiles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppDomainProfile.cs">AppDomainProfile.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AutoMapperConfiguration.cs">AutoMapperConfiguration.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MappingWraper.cs">MappingWraper.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

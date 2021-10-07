@@ -1,0 +1,68 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+	<TemplateData>
+		<Name>Sertao Arch Template 2.0</Name>
+		<Description>Template archtecture using DDD with .NET 5, unit tests and external integration</Description>
+		<ProjectType>CSharp</ProjectType>
+		<ProjectSubType>
+		</ProjectSubType>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>SertaoProject</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<Icon>SertaoArchIcon.jpg</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectCollection>
+			<ProjectTemplateLink ProjectName="$projectname$.Api" CopyParameters="true">
+				GimmeBooks.Api/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Domain" CopyParameters="true">
+				GimmeBooks.Domain/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">
+				GimmeBooks.Application/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.ApplicationTests" CopyParameters="true">
+				GimmeBooks.ApplicationTests/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Bootstrap" CopyParameters="true">
+				GimmeBooks.Bootstrap/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Business" CopyParameters="true">
+				GimmeBooks.Business/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Common" CopyParameters="true">
+				GimmeBooks.Common/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Data" CopyParameters="true">
+				GimmeBooks.Data/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.DI" CopyParameters="true">
+				GimmeBooks.DI/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Mapping" CopyParameters="true">
+				GimmeBooks.Mapping/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.ViewModels" CopyParameters="true">
+				GimmeBooks.ViewModels/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Twitter" CopyParameters="true">
+				GimmeBooks.Twitter/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Timer" CopyParameters="true">
+				GimmeBooks.Timer/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.NYNews" CopyParameters="true">
+				GimmeBooks.NYNews/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.GoogleBooks" CopyParameters="true">
+				GimmeBooks.GoogleBooks/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="RestFullHelper" CopyParameters="true">
+				RestFullHelper/MyTemplate.vstemplate
+			</ProjectTemplateLink>
+		</ProjectCollection>
+	</TemplateContent>
+</VSTemplate>

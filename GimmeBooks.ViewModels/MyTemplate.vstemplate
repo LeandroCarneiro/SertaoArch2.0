@@ -1,0 +1,30 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GimmeBooks.ViewModels</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GimmeBooks.ViewModels</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GimmeBooks.ViewModels.csproj" File="GimmeBooks.ViewModels.csproj" ReplaceParameters="true">
+      <Folder Name="AppObject" TargetFolderName="AppObject">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Book_vw.cs">Book_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="News_vw.cs">News_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NewsAnalitics_vw.cs">NewsAnalitics_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Tweet_vw.cs">Tweet_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="VolumeInfo_vw.cs">VolumeInfo_vw.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EntityBase_vw.cs">EntityBase_vw.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IAppService.cs">IAppService.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

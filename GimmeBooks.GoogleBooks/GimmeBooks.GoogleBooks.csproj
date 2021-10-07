@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\$ext_projectname$.Application\$ext_projectname$.Application.csproj" />
+    <ProjectReference Include="..\$ext_projectname$.NYNews\$ext_projectname$.NYNews.csproj" />
+    <ProjectReference Include="..\RestFullHelper\RestFullHelper.csproj" />
+  </ItemGroup>
+
+</Project>
