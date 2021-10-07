@@ -16,49 +16,49 @@
 	<TemplateContent>
 		<ProjectCollection>
 			<ProjectTemplateLink ProjectName="$projectname$.Api" CopyParameters="true">
-				GimmeBooks.Api/MyTemplate.vstemplate
+				Template.Api/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Domain" CopyParameters="true">
-				GimmeBooks.Domain/MyTemplate.vstemplate
+				Template.Domain/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">
-				GimmeBooks.Application/MyTemplate.vstemplate
+				Template.Application/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.ApplicationTests" CopyParameters="true">
-				GimmeBooks.ApplicationTests/MyTemplate.vstemplate
+				Template.ApplicationTests/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Bootstrap" CopyParameters="true">
-				GimmeBooks.Bootstrap/MyTemplate.vstemplate
+				Template.Bootstrap/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Business" CopyParameters="true">
-				GimmeBooks.Business/MyTemplate.vstemplate
+				Template.Business/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Common" CopyParameters="true">
-				GimmeBooks.Common/MyTemplate.vstemplate
+				Template.Common/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Data" CopyParameters="true">
-				GimmeBooks.Data/MyTemplate.vstemplate
+				Template.Data/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.DI" CopyParameters="true">
-				GimmeBooks.DI/MyTemplate.vstemplate
+				Template.DI/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Mapping" CopyParameters="true">
-				GimmeBooks.Mapping/MyTemplate.vstemplate
+				Template.Mapping/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.ViewModels" CopyParameters="true">
-				GimmeBooks.ViewModels/MyTemplate.vstemplate
+				Template.ViewModels/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Twitter" CopyParameters="true">
-				GimmeBooks.Twitter/MyTemplate.vstemplate
+				Template.Twitter/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Timer" CopyParameters="true">
-				GimmeBooks.Timer/MyTemplate.vstemplate
+				Template.Timer/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.NYNews" CopyParameters="true">
-				GimmeBooks.NYNews/MyTemplate.vstemplate
+				Template.NYNews/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.GoogleBooks" CopyParameters="true">
-				GimmeBooks.GoogleBooks/MyTemplate.vstemplate
+				Template.GoogleBooks/MyTemplate.vstemplate
 			</ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="RestFullHelper" CopyParameters="true">
 				RestFullHelper/MyTemplate.vstemplate
