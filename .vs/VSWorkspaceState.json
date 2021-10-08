@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\GimmeBooks.Api",
-    "\\GimmeBooks.Business",
-    "\\GimmeBooks.Business\\Domain",
-    "\\GimmeBooks.Data",
-    "\\GimmeBooks.Data\\Contexts",
-    "\\GimmeBooks.Mapping",
-    "\\GimmeBooks.Mapping\\Profiles"
+    ""
   ],
-  "SelectedNode": "\\GimmeBooks.Data\\Contexts\\AppDbContext.cs",
+  "SelectedNode": "\\Template.Application",
   "PreviewInSolutionExplorer": false
 }
